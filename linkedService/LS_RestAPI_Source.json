@@ -1,0 +1,18 @@
+{
+	"name": "LS_RestAPI_Source",
+	"type": "Microsoft.DataFactory/factories/linkedservices",
+	"properties": {
+		"parameters": {
+			"LSBaseURL": {
+				"type": "string"
+			}
+		},
+		"annotations": [],
+		"type": "RestService",
+		"typeProperties": {
+			"url": "@{linkedService().LSBaseURL}",
+			"enableServerCertificateValidation": true,
+			"authenticationType": "Anonymous"
+		}
+	}
+}

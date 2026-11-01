@@ -1,0 +1,15 @@
+{
+	"name": "restdatafctryapi",
+	"properties": {
+		"trustModeClaimForMi": {
+			"value": "Disabled",
+			"editable": true
+		}
+	},
+	"location": "westus2",
+	"identity": {
+		"type": "SystemAssigned",
+		"principalId": "1751771e-a94f-432f-af41-8cd691db4f3e",
+		"tenantId": "11b3f47a-7092-447e-918e-b3d63f1d6a8e"
+	}
+}
